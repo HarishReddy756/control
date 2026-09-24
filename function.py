@@ -25,3 +25,6 @@ def display_result(name, total, percentage):
  
 display_result("harish",355,95)
 
+#comment code 
+
+print("this is a comment code")
