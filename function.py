@@ -25,6 +25,23 @@ def display_result(name, total, percentage):
  
 display_result("harish",355,95)
 
-#comment code 
+#comment code
 
 print("this is a comment code")
+
+def add(a,b):
+    return a+b
+result=add(10,20)
+print(result)
+
+def calculate(a,b):
+    addition=a+b
+    substraction=a-b
+    multiplication=a*b
+    division=a/b
+    return addition,substraction,multiplication,division
+x,y,z,w=calculate(10,5)
+print("Addition:",x)
+print("Subtraction:",y)
+print("Multiplication:",z)
+print("Division:",w)
