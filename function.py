@@ -45,3 +45,8 @@ print("Addition:",x)
 print("Subtraction:",y)
 print("Multiplication:",z)
 print("Division:",w)
+
+
+square = lambda x: x * x
+
+print(square(5))
