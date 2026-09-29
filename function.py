@@ -71,3 +71,18 @@ student = {
 print("Name:", student["name"])
 print("Age:", student["age"])
 print("Course:", student["course"])
+
+class Animal:
+    def eat(self):
+        print("Animal is eating")
+
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog is barking")
+
+
+dog = Dog()
+
+dog.eat()    # inherited from Animal
+dog.bark()   # Dog's own method
