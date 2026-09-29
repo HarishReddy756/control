@@ -61,3 +61,13 @@ elif marks >= 40:
     print("Grade C")
 else:
     print("Fail")
+
+student = {
+    "name": "Harish",
+    "age": 22,
+    "course": "Python"
+}
+
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Course:", student["course"])
